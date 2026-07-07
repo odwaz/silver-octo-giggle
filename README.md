@@ -1,6 +1,6 @@
 # Platform Infrastructure
 
-Terraform modules provisioning the AWS infrastructure for the Gimba platform — three microservices running on EKS with PostgreSQL, Kafka (Strimzi), CI/CD pipelines, and observability.
+Terraform modules provisioning the AWS infrastructure for the Gimba platform — microservices running on EKS with PostgreSQL, Kafka (Strimzi), CI/CD pipelines, and observability.
 
 ## Services Deployed
 
