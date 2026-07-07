@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: Platform Infrastructure
+description: Terraform modules provisioning AWS infrastructure — EKS, PostgreSQL, Kafka (Strimzi), CI/CD pipelines, and observability
+show_downloads: false

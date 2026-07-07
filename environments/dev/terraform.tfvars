@@ -1,0 +1,6 @@
+region                  = "af-south-1"
+project                 = "gimba"
+environment             = "dev"
+db_password             = "CHANGE_ME_BEFORE_APPLY"
+grafana_admin_password  = "CHANGE_ME_BEFORE_APPLY"
+codestar_connection_arn = "arn:aws:codestar-connections:af-south-1:ACCOUNT_ID:connection/CONNECTION_ID"
