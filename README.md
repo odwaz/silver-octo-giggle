@@ -1,6 +1,6 @@
 # Platform Infrastructure
 
-Terraform modules provisioning the AWS infrastructure for the Gimba platform — microservices running on EKS with PostgreSQL, Kafka (Strimzi), CI/CD pipelines, and observability.
+Terraform modules provisioning the AWS infrastructure for the platform — microservices running on EKS with PostgreSQL, Kafka (Strimzi), CI/CD pipelines, and observability.
 
 ## Services Deployed
 
@@ -95,8 +95,8 @@ terraform destroy
 ## State Management
 
 State is stored in S3 with DynamoDB locking:
-- **Bucket:** `gimba-terraform-state-{account_id}`
-- **Lock table:** `gimba-terraform-locks`
+- **Bucket:** `platform-terraform-state-{account_id}`
+- **Lock table:** `platform-terraform-locks`
 - **Key:** `environments/{env}/terraform.tfstate`
 
 ## Prerequisites
